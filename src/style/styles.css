@@ -1,0 +1,378 @@
+/* FONTS */
+@font-face {
+    font-family: 'brugty';
+    src: url('../assets/fonts/brugty_demo-webfont.woff2') format('woff2'),
+         url('../assets/fonts/brugty_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar';
+    src: url('../assets/fonts/CaviarDreams.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar-bold';
+        src: url('../assets/fonts/CaviarDreams_Bold.ttf');
+    font-weight: 600;
+    font-style: bold;
+}
+/* -------------- BODY -------------- */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: linear-gradient(135deg, #8254EA 0%, #E86DEC 100%);  */
+    background: rgb(244, 244, 244);
+}
+
+/* -------------- NAVBAR -------------- */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.topnav {
+    overflow: hidden;
+    background: inherit;
+    backdrop-filter: blur(10px);
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: caviar;
+}
+  
+.topnav a:hover {
+    color: #fe8db0;
+}
+
+.topnav a.active {
+    background-color:rgba(228, 223, 247, 0.331);
+    color: #fe8db0;
+    padding: 1rem 1rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    -webkit-border-radius: 0rem 0rem 1rem 1rem;
+    -moz-border-radius: 0rem 0rem 1rem 1rem;
+    -ms-border-radius: 0rem 0rem 1rem 1rem;
+    -o-border-radius: 0rem 0rem 1rem 1rem;
+}
+
+/* -------------- FOOTER -------------- */
+footer p{
+    font-size: 10px;
+    font-family: caviar;
+    font-weight: 100;
+}
+
+footer b{
+    color: #fe8db0;
+    font-family:  caviar-bold;
+}
+
+footer img{
+    height: 20px;
+}
+  
+
+/* -------------- TITLES -------------- */
+.title{
+    font-size: 100px;
+    font-family: brugty;
+    font-weight: 100;
+}
+
+.subtitle{
+    font-size: 60px;
+    font-family: brugty;
+    font-weight: 100;
+    padding: 0px;
+}
+
+.subtitle2{
+    font-size: 40px;
+    font-family: brugty;
+    font-weight: 100;
+    padding: 0px;
+}
+
+.padding-top-subtitle{
+    padding-top: 80px;
+}
+
+.white{
+    color: whitesmoke;
+}
+
+.pink{
+    color: #fe8db0;
+}
+.centered{
+    text-align: center;
+}
+
+/* -------------- TEXT ------------- */
+p{
+    font-size: 24px;
+    font-family: caviar;
+    font-weight: 100;
+}
+
+p b{
+    color: #fe8db0;
+    font-family:  caviar-bold;
+}
+
+/* -------------- SECTIONS -------------- */
+
+.white-section{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgba(228, 223, 247, 0.331);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.adjusted-section{
+    width: 30%;
+}
+
+/* -------------- CARDS -------------- */
+.card-glass{
+    padding: 2rem;
+    background-color: rgba(228, 223, 247, 0.331);
+    box-shadow: 0 3px 10px rgba(228, 223, 247, 0.331);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    margin: 10px;
+}
+
+
+.card{
+    background-color: rgba(228, 223, 247, 0.331);
+    width: 50%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 2rem 0rem;
+}
+
+/* -------------- AVATAR -------------- */
+.avatar{
+    background-color: inherit;
+    margin: auto;
+    border-radius: 100%;
+    height: 110px;
+    width: 110px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.avatar img{
+    height: 100px;
+}
+
+.avatar-name{
+    margin: auto;
+    color: #fe8db0;
+    padding-top: 1rem;
+    font-family:  caviar-bold;
+}
+
+.avatar-reason{
+    margin: auto;
+    color: #f2a8c0;
+    padding-top: 1rem;
+    font-family:  caviar;
+    font-style: italic;
+}
+/* -------------- LOGO SIZE -------------- */
+#logo-medium {
+    width: 250px;
+}
+
+#logo-big {
+    width: 500px;
+}
+
+/* -------------- FLEX BOX CONTAINER -------------- */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 2rem; */
+}
+
+.flex-container > div{
+    padding: 2rem;
+    text-align: center;
+}
+
+/* -------------- IMAGE STYLES -------------- */
+
+.styleOne{
+    width: 300px;
+}
+
+.rounded{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    /*border: 1px solid;
+    */box-shadow: 5px 10px #fe8db1ac;
+}
+
+.image-container{
+    position: relative;
+    /* background-color: #8254EA; */
+    width: 50%;
+    height: 300px;
+}
+
+.padding-top{
+    padding-top: 3rem;
+}
+
+.padding-bottom{
+    padding-bottom: 3rem;
+}
+
+.topleft{
+    position: absolute;
+    top: -10%;
+    left: 0px;
+}
+
+.topright {
+    position: absolute;
+    top: -10%;
+    right: 0px;
+}
+
+.bottomleft2{
+    position: absolute;
+    bottom: -35%;
+    left: 20%;
+}
+
+.topleft2{
+    position: absolute;
+    top: -20%;
+    left: 0px;
+}
+
+.topright2{
+    position: absolute;
+    top: 0px;
+    right: 10%;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: -35%;
+    left: 20%;
+}
+
+/* -------------- FORM -------------- */
+form{
+    font-family: caviar;
+}
+
+input[type=text], [type=number], [type=email], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 24px;
+    font-family: caviar;
+    font-weight: 100;
+}
+  
+input[type=submit], [type=reset] {
+    background-color: #fe8db1ac;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+  
+input[type=submit]:hover, [type=reset]:hover {
+    background-color: #fa6a98ac;
+}
+
+/* -------------- TABLA DE PEDIDOS -------------- */
+#pedidos{
+    border-collapse: collapse;
+    width: 100%;
+}
+#pedidos td, #pedidos th{
+    border: 1px solid whitesmoke;
+    padding: 8px;
+}
+#pedidos tr:nth-child(even){background-color: #c0afe8;}
+
+#pedidos tr:hover{
+    background-color: #8254EA;
+}
+#pedidos th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8254EA;
+    color:whitesmoke;
+}
+
+/* -------------- SCROLLBAR -------------- */
+body::-webkit-scrollbar {
+    width: 1rem;
+    height: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: rgba(0,0,0,0.4);
+}
+
+body::-webkit-scrollbar-thumb:active{
+    background: rgba(0,0,0,.9);
+}
