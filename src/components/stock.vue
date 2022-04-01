@@ -5,40 +5,32 @@
                 <h2 class="subtitle pink centered">Stock Sabores</h2>
                 <form action="">
                     <label>Cremosa Vainilla</label>
-                    <input type="number" value="30" style="width: 50px;"  disabled>
-                    <label for="">kg</label>
+                    <label class="pink"> {{ $store.getters.cantidadVainilla }} kg</label>
                     <br>
                     <label>Chocolate Extreme</label>
-                    <input type="number" value="34" style="width: 50px;"  disabled>
-                    <label for="">kg</label>
+                    <label class="pink"> {{ $store.getters.cantidadChocolate }} kg</label>
                     <br>
                     <label>Muchas Leches</label>
-                    <input type="number" value="32" style="width: 50px;"  disabled>
-                    <label for="">kg</label>                 
+                    <label class="pink"> {{ $store.getters.cantidadLeche}} kg</label>              
                 </form>
             </div>
             <div class="card centered" style="width: 35%; margin: 20px;">
                 <h2 class="subtitle pink centered ">Toppings</h2>
                 <form action="">
                     <label>Salsa MilkyWay</label>
-                    <input type="number" value="27" style="width: 50px;"  disabled>
-                    <label for=""> lts</label>
+                    <label class="pink"> {{ $store.getters.cantidadMilkyWay}} kg</label>    
                     <br>
                     <label>Salsa Kinder</label>
-                    <input type="number" value="10" style="width: 50px;"  disabled>
-                    <label for=""> lts</label>
+                    <label class="pink"> {{ $store.getters.cantidadSalsaKinder}} kg</label> 
                     <br>
                     <label>Snickers</label>
-                    <input type="number" value="20" style="width: 50px;"  disabled>
-                    <label for=""> kg</label>
+                    <label class="pink"> {{ $store.getters.cantidadSnickers}} kg</label> 
                     <br>
                     <label>Brownies</label>
-                    <input type="number" value="23" style="width: 50px;"  disabled>
-                    <label for=""> kg</label>
+                    <label class="pink"> {{ $store.getters.cantidadBrownies}} kg</label> 
                     <br>
                     <label>M&Ms</label>
-                    <input type="number" value="10" style="width: 50px;"  disabled>
-                    <label for=""> kg</label>                   
+                    <label class="pink"> {{ $store.getters.cantidadMandMs}} kg</label>                  
                 </form>
             </div>
         </div>

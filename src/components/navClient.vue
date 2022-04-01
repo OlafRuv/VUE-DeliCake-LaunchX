@@ -9,6 +9,7 @@
         <a class="scrollactive-item" href="#" v-scroll-to="'#Productos'">Productos</a>
         <a class="scrollactive-item" href="#" v-scroll-to="'#Pedido'">Hacer un Pedido</a>
         <a class="scrollactive-item" href="#" v-scroll-to="'#Footer'">Contacto</a>
+        <a class="scrollactive-item" href="#/adminView" >Pedidos</a>
         </scrollactive>
         </div>
     </header>

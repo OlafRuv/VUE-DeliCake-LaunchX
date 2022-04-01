@@ -23,45 +23,13 @@
                         Toppings
                     </th>
                 </tr>
-                <tr>
-                    <td>
-                        Jorgito Arevalo
-                    </td>
-                    <td>
-                        3322115588
-                    </td>
-                    <td>
-                        jorgitoarevalo@gmail.com
-                    </td>
-                    <td>
-                        Pastel con forma de cabeza de Shrek
-                    </td>
-                    <td>
-                        Chocolate extreme
-                    </td>
-                    <td>
-                        M&Ms
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Nombre
-                    </td>
-                    <td>
-                        Telefono
-                    </td>
-                    <td>
-                        Email
-                    </td>
-                    <td>
-                        Descripcion
-                    </td>
-                    <td>
-                        Sabor
-                    </td>
-                    <td>
-                        Toppings
-                    </td>
+                <tr v-for="(data, index) in pedidos" :key="index">
+                    <td> {{ data.Nombre }}</td>
+                    <td> {{ data.Telefono }}</td>
+                    <td> {{ data.Email }}</td>
+                    <td> {{ data.Descripcion }}</td>
+                    <td> {{ data.Sabor }}</td>
+                    <td> {{ data.Toppings }}</td>
                 </tr>
             </table>
         </div>
@@ -71,5 +39,15 @@
 <script>
 export default {
     name: 'orderTable',
+    computed: {
+        pedidos(){
+            return this.$store.state.pedidos;
+        }
+    },
+    methods: {
+        getPedidos(){
+            console.log(this.pedidos);
+        }
+    }
 }
 </script>
