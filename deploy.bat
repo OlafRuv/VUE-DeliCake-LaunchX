@@ -1,6 +1,6 @@
-#!/usr/bin/env sh
+# !/usr/bin/env sh
 # abort on errors
-set -e
+# set -e
 # build
 node run build
 # navigate into the build output directory
