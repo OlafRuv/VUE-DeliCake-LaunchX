@@ -1,17 +1,13 @@
-# VUE & VUEX DELICAKE KAUNCH X
-<img align="right" width="100" height="100" src="https://github.com/OlafRuv/DeliCakeLaunchX/blob/main/Assets/output-onlinegiftools.gif">
- [ DeliCake 🎂🍰].
+# VUE & VUEX DELICAKE LAUNCH X 🎂
+
 Creacion de solcuión para caso de Delicake haciendo uso de VUE 
-</br>
-Caso expuesto en práctica [DeliCakeLaunchX](https://github.com/OlafRuv/DeliCakeLaunchX/blob/main/README.md)
-</br>
-- ![tag](https://placehold.it/150/ffffff/ff0000?text=hello)
-</br>
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) 
+<img align="right" width="100" height="100" src="https://github.com/OlafRuv/DeliCakeLaunchX/blob/main/Assets/output-onlinegiftools.gif"></br>
+Caso expuesto en práctica: </br> ![#41B883](https://via.placeholder.com/15/41B883/000000?text=+) [DeliCakeLaunchX](https://github.com/OlafRuv/DeliCakeLaunchX/blob/main/README.md)
 
 ## Sitio Desplegado
 - https://olafruv.github.io/VUE-DeliCake-LaunchX/
 
+</br></br>
 ## Project setup
 ```
 npm install
